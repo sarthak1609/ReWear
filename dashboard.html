@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Dashboard - ReWear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header
+      class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm shadow-sm z-50"
+    >
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="index.html" class="text-3xl font-bold text-primary">ReWear</a>
+        <nav id="main-nav" class="flex items-center space-x-6">
+          <!-- Navigation links will be injected by script.js -->
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="pt-24 bg-light-bg min-h-screen pb-20">
+      <div class="container mx-auto px-6 py-12">
+        <h2 class="text-4xl font-bold text-primary mb-8">My Dashboard</h2>
+        <div class="flex flex-col md:flex-row gap-8">
+          <!-- Sidebar -->
+          <div class="w-full md:w-1/4 bg-white p-6 rounded-xl shadow-md">
+            <div class="text-center mb-6">
+              <img
+                src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+                alt="User Avatar"
+                class="w-24 h-24 mx-auto rounded-full shadow-lg"
+              />
+              <h3 class="text-2xl font-bold mt-4">Demo User</h3>
+              <p class="text-gray-500">demo@rewear.com</p>
+            </div>
+            <div class="text-center bg-light-bg p-4 rounded-lg">
+              <p class="text-lg text-primary">Your Points</p>
+              <p class="text-4xl font-bold text-accent-primary">100</p>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="w-full md:w-3/4 bg-white p-8 rounded-xl shadow-md">
+            <div class="flex justify-between items-center mb-6">
+              <h3 class="text-2xl font-bold text-primary">My Uploaded Items</h3>
+              <a
+                href="add-item.html"
+                class="bg-accent-primary text-white px-5 py-2 rounded-full flex items-center gap-2 hover:bg-accent-primary-dark transition shadow"
+              >
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                  ></path>
+                </svg>
+                List New Item
+              </a>
+            </div>
+            <div
+              id="my-items-container"
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+            >
+              <!-- User's items will be injected here by script.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- EXPANDED FOOTER -->
+    <footer class="bg-primary text-white">
+      <div class="container mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <!-- About Section -->
+          <div class="col-span-1 md:col-span-2">
+            <h3 class="text-2xl font-bold mb-4">ReWear</h3>
+            <p class="opacity-80 leading-relaxed">
+              The sustainable fashion movement starts here. ReWear is a
+              community-driven platform dedicated to giving clothes a second
+              life. Swap items you no longer wear for new-to-you treasures and
+              help reduce textile waste.
+            </p>
+          </div>
+          <!-- Quick Links -->
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="index.html"
+                  class="opacity-80 hover:opacity-100 transition"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="dashboard.html"
+                  class="opacity-80 hover:opacity-100 transition"
+                  >Dashboard</a
+                >
+              </li>
+              <li>
+                <a
+                  href="add-item.html"
+                  class="opacity-80 hover:opacity-100 transition"
+                  >List an Item</a
+                >
+              </li>
+              <li>
+                <a href="#" class="opacity-80 hover:opacity-100 transition"
+                  >How It Works</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Follow Us -->
+          <div>
+            <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="opacity-80 hover:opacity-100 transition"
+                >Facebook</a
+              >
+              <a href="#" class="opacity-80 hover:opacity-100 transition"
+                >Instagram</a
+              >
+              <a href="#" class="opacity-80 hover:opacity-100 transition"
+                >Twitter</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="mt-16 border-t border-white/20 pt-8 text-center text-sm opacity-80"
+        >
+          &copy; 2025 ReWear. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
