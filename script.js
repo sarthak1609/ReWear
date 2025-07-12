@@ -1,19 +1,25 @@
 // --- MOCK DATA ---
 const mockItems = [
-    { id: 1, title: 'Summer Floral Dress', category: 'Dresses', size: 'M', points: 120, uploader: 'Jane Doe', imageUrl: 'https://images.unsplash.com/photo-1595534522071-259a4309e451?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'A beautiful floral dress, perfect for summer outings. Worn only a few times.'},
-    { id: 2, title: 'Classic Blue Jeans', category: 'Bottoms', size: '32', points: 100, uploader: 'John Smith', imageUrl: 'https://images.unsplash.com/photo-1602293589930-4535a9a7464b?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'Comfortable and stylish classic blue jeans. A wardrobe staple.'},
-    { id: 3, title: 'Cozy Wool Sweater', category: 'Tops', size: 'L', points: 150, uploader: 'Emily White', imageUrl: 'https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'A very warm and cozy wool sweater for chilly days.'},
+    { id: 1, title: 'Summer Floral Dress', category: 'Dresses', size: 'M', points: 120, uploader: 'Jane Doe', imageUrl: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'A beautiful floral dress, perfect for summer outings. Worn only a few times.'},
+    { id: 2, title: 'Classic Blue Jeans', category: 'Bottoms', size: '32', points: 100, uploader: 'John Smith', imageUrl: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'Comfortable and stylish classic blue jeans. A wardrobe staple.'},
+    { id: 3, title: 'Cozy Wool Sweater', category: 'Tops', size: 'L', points: 150, uploader: 'Emily White', imageUrl: 'https://images.unsplash.com/photo-1484512553900-8475545938b3?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'A very warm and cozy wool sweater for chilly days.'},
     { id: 4, title: 'Leather Biker Jacket', category: 'Outerwear', size: 'M', points: 250, uploader: 'Chris Green', imageUrl: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'High-quality leather biker jacket with a timeless design.'},
+    { id: 9, title: 'Pleated Midi Skirt', category: 'Bottoms', size: 'S', points: 110, uploader: 'Sarah Adams', imageUrl: 'https://images.unsplash.com/photo-1591326435479-6156543b8b59?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'A flowy and elegant pleated midi skirt, perfect for any season.'},
+    { id: 10, title: 'Men\'s Oxford Shirt', category: 'Tops', size: 'M', points: 90, uploader: 'Mike Ross', imageUrl: 'https://images.unsplash.com/photo-1598032895397-b9472444bf23?q=80&w=1887&auto=format&fit=crop', status: 'available', description: 'A classic Oxford button-down shirt. Versatile and sharp.'},
+    { id: 11, 'title': 'Running Sneakers', 'category': 'Shoes', 'size': '10', 'points': 180, 'uploader': 'Kevin Hart', 'imageUrl': 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop', 'status': 'available', 'description': 'Lightweight and comfortable running sneakers, great for workouts.'},
+    { id: 12, 'title': 'Tan Leather Handbag', 'category': 'Accessories', 'size': 'One Size', 'points': 220, 'uploader': 'Jessica Pearson', 'imageUrl': 'https://images.unsplash.com/photo-1590737233998-457335289253?q=80&w=1887&auto=format&fit=crop', 'status': 'available', 'description': 'A stylish and spacious leather handbag, perfect for everyday use.'}
 ];
 
 const myMockItems = [
     { id: 5, title: 'Green Cargo Pants', category: 'Bottoms', size: 'L', imageUrl: 'https://images.unsplash.com/photo-1604176354204-926873782855?q=80&w=1887&auto=format&fit=crop', status: 'available' },
     { id: 6, title: 'Striped T-Shirt', category: 'Tops', size: 'L', imageUrl: 'https://images.unsplash.com/photo-1554568218-0f1715e72254?q=80&w=1887&auto=format&fit=crop', status: 'pending' },
+    { id: 13, title: 'Stylish Fedora Hat', category: 'Accessories', size: 'M', imageUrl: 'https://images.unsplash.com/photo-1533055642133-2f6d2753a938?q=80&w=1887&auto=format&fit=crop', status: 'available'}
 ];
 
 let pendingAdminItems = [
     { id: 7, title: 'Red Silk Scarf', uploaderId: 'user123', imageUrl: 'https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?q=80&w=1935&auto=format&fit=crop' },
     { id: 8, title: 'Vintage Sunglasses', uploaderId: 'user456', imageUrl: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1780&auto=format&fit=crop' },
+    { id: 14, title: 'Denim Shorts', uploaderId: 'user789', imageUrl: 'https://images.unsplash.com/photo-1605518216944-43639e1ef1b8?q=80&w=1887&auto=format&fit=crop'}
 ];
 
 
